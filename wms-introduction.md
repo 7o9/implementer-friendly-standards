@@ -34,9 +34,9 @@ There are two primary API calls:
 - GetCapabilities
 - GetMap
 
-The *GetCapabilities API call returns the metadata of the server. The ''OGC WMS Capabilities Document'' comes in XML format and is requested by calling (example): 
+The GetCapabilities API call returns the metadata of the server. The ''OGC WMS Capabilities Document'' comes in XML format and is requested by calling (example): 
 
-``http://metaspatial.net/cgi-bin/ogc-wms.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.3``
+http://metaspatial.net/cgi-bin/ogc-wms.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.3
 
 This document contains all the information needed to make a valid OGC WMS GetMap request.
 
