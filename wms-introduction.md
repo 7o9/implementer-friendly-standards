@@ -1,24 +1,3 @@
-Table of Content
-----------------
-The OGC WMS Standard
-
-What Can You Do With It?
-
-Primary Use Cases
-
-Maturity of the standard
-
-Primary API Calls
-
-   GetMap Example
-
-Optional Requests
-
-Links
-
-Related standards
-
-
 About this Page
 ---------------
 
@@ -55,9 +34,16 @@ There are two primary API calls:
 - GetCapabilities
 - GetMap
 
+The *GetCapabilities API call returns the metadata of the server. The ''OGC WMS Capabilities Document'' comes in XML format and is requested by calling (example): 
+
+``http://metaspatial.net/cgi-bin/ogc-wms.xml?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=1.3``
+
+This document contains all the information needed to make a valid OGC WMS GetMap request.
+
 The GetCapabilities request returns a document in XML format which contains all information a client needs to make a GetMap request. The GetMap request returns the map image. In the case that the server cannot answer the request an error message is treturend, either as an image of the same size as the requested map or as an XML string. 
 
-   GetMap Example
+GetMap Example
+
 
 Optional Calls
 --------------
