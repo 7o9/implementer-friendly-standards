@@ -13,9 +13,23 @@ What Can You Do With It?
 
 In simple words: Get maps! Depending on the configuration of the server maps can come in a variety of formats, sizes, coordinate and projection systems. Maps can be structured into "layers" and the server can offer to apply filters to select or highlight specific features. The OGC WMS standard offers a great many options limited only by your data and your creativity. 
 
-This demo server hosts street data. On one image only the highways are selected, on the next only footpaths and the third contains a combination of all the linear road infrastructure items. 
+This demo server hosts data for a simple road map. The first image only contains roads and built-up areas. The next contains place names, another only requests for point information and the last selects topographic data. 
 
-Example: 
+These are the API calls for the Demo and Reference Server:  
+
+
+This map can also be called in one go as a combination: 
+
+	http://metaspatial.net/cgi-bin/ogc-wms.xml?
+	VERSION=1.3.0&
+	REQUEST=GetMap&
+	SERVICE=WMS&
+	LAYERS=Topography,Infrastructure,osm_points,Places&
+	CRS=EPSG:27700&
+	BBOX=440956.17,113999.62,442343.82,115560.37&
+	WIDTH=282&HEIGHT=316&
+	FORMAT=image/png&
+	EXCEPTIONS=XML
 
 Primary Use Cases
 -----------------
