@@ -1,23 +1,14 @@
 Table of Content
 ----------------
-The OGC WMS Standard
-
-What Can You Do With It?
-
-Primary Use Cases
-
-Maturity of the standard
-
-Primary API Calls
-
-   GetMap Example
-
-Optional Requests
-
-Links
-
-Related standards
-
+- The OGC WMS Standard
+- What Can You Do With It?
+- Primary Use Cases
+- Maturity of the standard
+- Primary API Calls
+- GetMap Example
+- Optional Requests
+- Links
+- Related Standards Family
 
 About this Page
 ---------------
@@ -67,9 +58,8 @@ There are several optional API calls. These include:
 - GetFeatureInfo - return information about features on a map
 - GetStyle and SetStyle -  cartography based on the OGC SLD (Styled Laer Descriptor) standard. 
 
-
-
 Links
+-----
 
 Related Standards Family
 ------------------------
